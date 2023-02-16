@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import NavBar from '../components/NavBar'
 import NewsLetter from '../components/NewsLetter'
+import RecomendedProducts from '../components/RecomendedProducts'
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
         <Carosals/>
         <BestDeals/>
         <ClassifiedProducts/>
+        <RecomendedProducts/>
         <NewsLetter/>
         <Footer/>
 
