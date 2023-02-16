@@ -6,6 +6,7 @@ import ClassifiedProducts from '../components/ClassifiedProducts'
 import FlashSale from '../components/FlashSale'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import HotSale from '../components/HotSale'
 import NavBar from '../components/NavBar'
 import NewsLetter from '../components/NewsLetter'
 import RecomendedProducts from '../components/RecomendedProducts'
@@ -23,6 +24,7 @@ const HomePage = () => {
         <ClassifiedProducts/>
         <RecomendedProducts/>
         <FlashSale/>
+        <HotSale/>
         <NewsLetter/>
         <Footer/>
 

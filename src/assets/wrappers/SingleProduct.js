@@ -68,6 +68,19 @@ font-size: 12px;
     font-size: 12PX;
     color: rgba(141, 141, 141, 1);
 }
+.Cart_Button{
+    background: none;
+    border: 2px solid rgba(49, 135, 237, 1);
+    border-radius: 5px;
+    width: 80%;
+    height: 30px;
+    font-size: 15px;
+    color: rgba(49, 135, 237, 1);
+}
+.Cart_Button:hover{
+    background-color: rgba(49, 135, 237, 1);
+    color: white;
+}
 
 
 

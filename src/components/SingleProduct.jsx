@@ -1,7 +1,7 @@
 import React from 'react'
 import Wrapper from '../assets/wrappers/SingleProduct'
-
-const SingleProduct = ({ item }) => {
+import StarRateIcon from '@mui/icons-material/StarRate';
+const SingleProduct = ({ item,button}) => {
     return (
         <Wrapper>
             <div className="Container">
@@ -27,8 +27,11 @@ const SingleProduct = ({ item }) => {
                         </div>
                         <div className="Rating">
                             <span>{item.price}</span>
-                            <p>{item.rating}</p>
+                            <p><StarRateIcon  style={{width:'15px', color:'rgba(49, 135, 237, 1)'}} />{item.rating}</p>
                         </div>
+                        {button ? (
+                            <button className='Cart_Button' >Add to Cart</button>
+                        ):('')}
                     </div>
 
                 </div>
