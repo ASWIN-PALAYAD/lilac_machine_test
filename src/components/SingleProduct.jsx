@@ -7,20 +7,26 @@ const SingleProduct = ({ item }) => {
             <div className="Container">
                 <div className="Product">
                     <div className="Pro_image">
-                        <img src={item.image} alt="" />
-                        <div className="offer">
-
+                        <img src={item.image} alt="" /> 
+                        {item.offer ? (
+                            <div className="Offer_card">
+                            {item.offer}% off
                         </div>
+                        ):('')}
+                        
+                         
                     </div>
+                    
                     <div className="Pro_Details">
                         <div className="Name">
                             <p>{item.name}</p>
                         </div>
                         <div className="Price">
                             <h5>{item.price}</h5>
-                            <span>{item.price}</span>
+
                         </div>
-                        <div className="rating">
+                        <div className="Rating">
+                            <span>{item.price}</span>
                             <p>{item.rating}</p>
                         </div>
                     </div>

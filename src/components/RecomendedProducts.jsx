@@ -12,17 +12,18 @@ import SingleProduct from './SingleProduct'
 const recomendedProducts = [
   {
     id:1,
-    name: 'iPhone 12 With Facetime 128GB Blue 5G Specs',
+    name: 'iPhone 12 With Facetime',
     image: television,
     price : '$33.3',
     rating: 4
 },
 {
   id:2,
-  name: 'EOS M200 Mirrorless Came ra With EF-M 15-45mm ...',
+  name: 'EOS M200 Mirrorless Camera',
   image: camera,
   price : '$33.3',
-  rating: 4
+  rating: 4,
+  offer : 30
 },
 {
   id:3,
@@ -36,7 +37,8 @@ const recomendedProducts = [
   name: 'Magic Perfume',
   image: perfume,
   price : '$33.3',
-  rating: 4
+  rating: 4,
+  offer: 40
 },
 {
   id:5,
