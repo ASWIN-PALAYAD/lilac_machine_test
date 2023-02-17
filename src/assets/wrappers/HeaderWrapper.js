@@ -5,7 +5,7 @@ const Wrapper = styled.section`
   p,
   i {
     font-size: 13px;
-    margin-right: 5px;
+    margin-right: 5px; 
   }
   select {
     background: none;
@@ -26,6 +26,7 @@ const Wrapper = styled.section`
     justify-content: center;
     display: flex;
     font-size: 16px;
+    align-items: center;
   }
   .items {
     display: flex;

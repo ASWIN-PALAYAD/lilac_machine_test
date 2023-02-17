@@ -5,7 +5,7 @@ const Wrapper = styled.section`
 
     .Container{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; 
         
     }
     .Left{
@@ -48,6 +48,13 @@ const Wrapper = styled.section`
         align-items: center;
         justify-content: space-around;
 
+    }
+    .MenuItem>button{
+        border: none;
+        background-color: rgba(0, 198, 215, 1);
+        color: white;
+        height: 30px;
+        border-radius: 5px;
     }
     
 

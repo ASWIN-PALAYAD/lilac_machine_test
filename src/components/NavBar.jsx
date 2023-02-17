@@ -1,5 +1,5 @@
 import React from 'react'
-import Wrapper from '../assets/wrappers/NavBarWrapper'
+import Wrapper from '../assets/wrappers/NavBarWrapper' 
 import logo from '../assets/images/logo.png';
 import Person2Icon from '@mui/icons-material/Person2';
 import IconButton from '@mui/material/IconButton';
