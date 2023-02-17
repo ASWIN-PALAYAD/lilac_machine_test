@@ -4,10 +4,11 @@ const Wrapper = styled.section`
 .Container{
     display: flex;
     align-items: center;
+    overflow: hidden;
 
 }
 .Products{
-    display: flex;
+    display: flex; 
 }
 
 

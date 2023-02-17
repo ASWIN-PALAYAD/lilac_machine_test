@@ -43,12 +43,20 @@ const ClassifiesItems = [
         urgent: false
     },
     {
-        id: 3,
+        id: 5,
         name: '2020 Ford Mustang GT Fastback',
         image: car,
         price: '$33.3',
         location: 'india',
         urgent: true
+    },
+    {
+        id: 6,
+        name: 'Marshall Stockwell II Portable Speaker',
+        image: speaker,
+        price: '$33.3',
+        location: 'india',
+        urgent: false
     },
 ]
 
@@ -56,20 +64,7 @@ const ClassifiedProducts = () => {
     return (
         <Wrapper>
             <div className="Container">
-                {/* <div className="button_section">
-                    <div className="content">
-                        <h5>Classified <br /> Products on <br />
-                            the week</h5>
-                    </div>
-                    <div className="arrow">
-                        <ArrowCircleLeftIcon />
-                        <ArrowCircleRightIcon />
-                    </div>
-                    <div className="Explore_button">
-                        <button>Explore</button>
-                    </div>
-
-                </div> */}
+                
                 <div className='Products' >
                     {ClassifiesItems.map((item) => {
                         return (
